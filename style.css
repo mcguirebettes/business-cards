@@ -8,21 +8,20 @@
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/cabin.svg');
+    background-color: antiquewhite;
+    background-image: url('pattern-background.svg');
 }
 /* the main container */
 
-.front-side,
 .back-side {
-  width: 254px;
-  height: 441px;
-  position: relative;
+  width: 550px;
+  height: 550px;
+  top: 5;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:antiquewhite;
+  background-color:rgb(119, 147, 95);
 }
 
 /* .front-side{
@@ -61,13 +60,18 @@ body {
 } */
 
 
-/* h3{
+h3{
+  font-family: 'Sofia Sans', sans-serif;
   margin-bottom: 0px;
+  color: antiquewhite;
 }
 
 h5{
+  font-family: 'Sofia Sans', sans-serif;
+  font-style: italic;
   margin-top: 0px;
   padding-top: 0px;
+  color:antiquewhite
 } */
 
 
@@ -76,7 +80,7 @@ h5{
 .st1{display:inline;}
 
 svg{
-  fill:purple;
+  fill:antiquewhite;
 }
 
 #icon-fill{
@@ -86,7 +90,7 @@ svg{
 
 
 .svg-interaction:hover{
-  fill:rgb(118, 27, 237);
+  fill:rgb(255, 238, 126);
   opacity: 0.5;
   animation:pulse; 
   animation-duration: 2s;
