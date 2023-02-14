@@ -9,19 +9,24 @@
 
 body {
     background-color: antiquewhite;
-    background-image: url('pattern-background.svg');
+    background-image: url('assets/pattern-background.svg');
 }
 /* the main container */
 
 .back-side {
-  width: 550px;
-  height: 550px;
+  width: 500px;
+  height: 500px;
   top: 5;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:rgb(119, 147, 95);
+}
+
+styledimg {
+  background-image: url('assets/logo-1.svg');
+  
 }
 
 /* .front-side{
@@ -64,6 +69,7 @@ h3{
   font-family: 'Sofia Sans', sans-serif;
   margin-bottom: 0px;
   color: antiquewhite;
+  text-align: center;
 }
 
 h5{
@@ -71,6 +77,7 @@ h5{
   font-style: italic;
   margin-top: 0px;
   padding-top: 0px;
+  text-align: center;
   color:antiquewhite
 } */
 
