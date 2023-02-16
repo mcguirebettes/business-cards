@@ -8,24 +8,22 @@
 
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(250, 235, 215);
     background-image: url('assets/pattern-background.svg');
 }
 /* the main container */
 
 .back-side {
+  border: 30px rgb antiquewhite;
   width: 500px;
   height: 500px;
   top: 1;
-  /* adjust this to space out the cards */
   margin: 20px auto;
+  margin-top: 55;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:rgb(119, 147, 95);
 }
-
-/* .front-side{
-} */
 
 .name{
   display: grid;
@@ -56,13 +54,18 @@ body {
 .logo-container{
   width: 30%;
   margin: 60px auto;
+  margin-bottom: 10;
  
 }
 
 .text-container{
-  margin-bottom: 50px
+  margin-bottom: 5px
 }
 
+.dots{
+  scale: 10%;
+  margin-top: 5px;
+}
 
 h3{
   font-family: 'Sofia Sans', sans-serif;
