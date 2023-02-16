@@ -16,17 +16,12 @@ body {
 .back-side {
   width: 500px;
   height: 500px;
-  top: 5;
+  top: 1;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:rgb(119, 147, 95);
-}
-
-styledimg {
-  background-image: url('assets/logo-1.svg');
-  
 }
 
 /* .front-side{
@@ -48,22 +43,25 @@ styledimg {
 }
 
 .icon-container{
-
-  width:80%;
+  width: 40%;
   margin: 0 auto;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas: 
-  "a b c";
+  "a b"
+  "c d";
   grid-gap: 10px;
 }
+.logo-container{
+  width: 30%;
+  margin: 30px auto;
+ 
+}
 
-/* .circle{
-  background-image: url("/assets/circle.svg");
-  grid-area: a;
-} */
-
+.text-container{
+  margin-bottom: 30;
+}
 
 h3{
   font-family: 'Sofia Sans', sans-serif;
@@ -71,6 +69,12 @@ h3{
   color: antiquewhite;
   text-align: center;
 }
+
+h4{
+  font-family: 'Sofia Sans', sans-serif;
+  margin-bottom: 0px;
+  color: antiquewhite;
+  text-align: left;}
 
 h5{
   font-family: 'Sofia Sans', sans-serif;
@@ -100,5 +104,5 @@ svg{
   fill:rgb(255, 238, 126);
   opacity: 0.5;
   animation:pulse; 
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
