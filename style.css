@@ -55,13 +55,14 @@ body {
 }
 .logo-container{
   width: 30%;
-  margin: 30px auto;
+  margin: 60px auto;
  
 }
 
 .text-container{
-  margin-bottom: 30px;
+  margin-bottom: 50px
 }
+
 
 h3{
   font-family: 'Sofia Sans', sans-serif;
@@ -106,3 +107,12 @@ svg{
   animation:pulse; 
   animation-duration: 1s;
 }
+
+@media screen and (max-width: 1200px) {
+  body{
+   transform-origin: top;
+   transform: scale(1.5);
+   margin:0 auto;
+  }
+ 
+   }
