@@ -14,7 +14,8 @@ body {
 /* the main container */
 
 .back-side {
-  border: 30px rgb antiquewhite;
+  border: 20px solid antiquewhite;
+  margin: auto;
   width: 500px;
   height: 500px;
   top: 1;
