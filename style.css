@@ -12,6 +12,17 @@
        transform: scale(1.1);
        margin:0 auto;
       }
+      /* .icon-container{
+        width: 45%;
+        margin: 0 auto;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "a b"
+        "c d";
+        grid-gap: 2px;
+      } */
      
        }
 
@@ -26,9 +37,9 @@ body {
   margin: auto;
   width: 500px;
   height: 500px;
-  top: 1;
+  /* top: 1; */
   margin: 20px auto;
-  margin-top: 55;
+  margin-top: 55px;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:rgb(119, 147, 95);
