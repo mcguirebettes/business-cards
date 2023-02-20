@@ -6,6 +6,14 @@
 
     }
 
+    @media screen and (max-width: 1200px) {
+      body{
+       transform-origin: top;
+       transform: scale(1.5);
+       margin:0 auto;
+      }
+     
+       }
 
 body {
     background-color: rgb(250, 235, 215);
@@ -26,23 +34,10 @@ body {
   background-color:rgb(119, 147, 95);
 }
 
-.name{
-  display: grid;
-  position: relative;
-  margin-left:30px;
-  padding: 10px
 
-}
-
-.secondary{
-  display: grid;
-  position: relative;
-  margin-left:30px;
-
-}
 
 .icon-container{
-  width: 40%;
+  width: 45%;
   margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 1fr;
@@ -50,7 +45,7 @@ body {
   grid-template-areas: 
   "a b"
   "c d";
-  grid-gap: 10px;
+  grid-gap: 2px;
 }
 .logo-container{
   width: 30%;
@@ -79,7 +74,10 @@ h4{
   font-family: 'Sofia Sans', sans-serif;
   margin-bottom: 0px;
   color: antiquewhite;
-  text-align: left;}
+  text-align: left;
+  padding-top: 10px ;
+  padding-left: 5px;
+}
 
 h5{
   font-family: 'Sofia Sans', sans-serif;
@@ -95,28 +93,27 @@ h5{
 /* .st0{display:none;} */
 .st1{display:inline;}
 
+
 svg{
-  fill:antiquewhite;
+  fill: antiquewhite;
 }
 
 #icon-fill{
   fill:none;
 }
 
+a:link {
+  text-decoration: none;
+ }
 
 
 .svg-interaction:hover{
-  fill:rgb(255, 238, 126);
+  fill:rgba(255, 255, 255, .7);
   opacity: 0.5;
   animation:pulse; 
   animation-duration: 1s;
 }
 
-@media screen and (max-width: 1200px) {
-  body{
-   transform-origin: top;
-   transform: scale(1.5);
-   margin:0 auto;
-  }
- 
-   }
+.logo-fill{
+  fill:white;
+}
