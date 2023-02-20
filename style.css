@@ -9,7 +9,7 @@
     @media screen and (max-width: 1200px) {
       body{
        transform-origin: top;
-       transform: scale(1.5);
+       transform: scale(1.1);
        margin:0 auto;
       }
      
@@ -86,12 +86,12 @@ h5{
   padding-top: 0px;
   text-align: center;
   color:antiquewhite
-} */
+} 
 
 
 /* svg styling */
 /* .st0{display:none;} */
-.st1{display:inline;}
+/* .st1{display:inline;} */
 
 
 svg{
